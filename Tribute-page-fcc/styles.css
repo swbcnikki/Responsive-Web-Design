@@ -1,0 +1,66 @@
+body {
+    background-color: lightgrey;
+    border: 10px solid white;
+    font-family: sans-serif;
+    margin: auto;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+  }
+  
+  
+  #main {
+    width: 100%;
+  }
+  
+  h1, p {
+  text-align: center;
+   }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  #img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
+    border-top: 10px solid white;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  #img-caption {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18;
+  }
+  
+  h2 {
+    text-align: center
+  }
+  
+  #tribute-info {
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 16;
+  }
+  
+  ul {  
+    justify-content: space-between;
+  }
+  
+  .wiki-page {
+    font-size: 18
+  }

@@ -1,0 +1,161 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Juneteenth in Seattle area</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn11.bigcommerce.com/s-a03c0/images/stencil/1280x1280/products/8384/18759/annin-4467_Juneteenth_flag__93860.1645046751.jpg?c=2" alt="Juneteenth flag" />
+      <h1 class="heading">Celebrate Juneteenth with us</h1>
+      <nav id="nav-bar">
+        <ul class="no-bullents">
+          <li><a class="nav-link" href="#history">History</a></li>
+          <li><a class="nav-link" href="#activities">Activities</a></li>
+          <li><a class="nav-link" href="#contact_us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro" id="history">
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/CI1HYZUqn2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+<p>Juneteenth (officially Juneteenth National Independence Day) is a federal holiday in the United States commemorating the emancipation of enslaved African Americans. Deriving its name from combining June and nineteenth, it is celebrated on the anniversary of the order by Major General Gordon Granger proclaiming freedom for enslaved people in Texas on June 19, 1865 (two and a half years after the Emancipation Proclamation was issued).Originating in Galveston, Juneteenth has since been observed annually in various parts of the United States, often broadly celebrating African-American culture. The day was recognized as a federal holiday in 2021, when President Joe Biden signed the Juneteenth National Independence Day Act into law.</p>
+</section>
+<section class="events" id="activities">
+<div class="eventheader">Juneteenth 2023 Celebration</div>
+
+<div class="eventtitle">NORTHWEST AFRICAN AMERICAN MUSEUM</div>
+<div class="details">JUNE 17–19, FREE</div>
+
+<p>Celebrate Juneteenth all weekend with a curated slate of programs that includes a youth day on June 17 with live storytelling from Seattle Children’s Theater, a film festival on June 18, and a skate party on June 19.</p>
+
+<div class="eventtitle"> REVIVAL: Juneteenth Popup market</div>
+<div class="details">JUNE 18, 12PM–5PM | MIDTOWN SQUARE, 2301 E UNION ST</div>
+
+<p>Support Black-owned businesses at this popup market in the Central District. There will be food trucks, retail vendors, and music spun by DJ Riz, broadcasting live on KEXP.</p>
+
+<div class="eventtitle">Songs of Black Folk 2023: Music of Resistance and Hope</div>
+<div class="details">JUNE 18, 7PM | PARAMOUNT THEATRE, $30</div>
+
+<p>This musical performance brings together local and national artists for a journey across history,  to “present a music tradition that began on the African continent and was transported to the Americas, via slave ships, and took root in the daily sufferings of an enslaved Black people who chose to survive and who fought to be free.” Led by artistic director and Tacoma-born Ramón Bryant Braxton.</p> 
+
+<div class="eventtitle">Summer of Soul: Juneteenth</div>
+<div class="details">JUNE 19, 12PM–8PM | JIMI HENDRIX PARK, FREE</div>
+
+<p>In partnership with King County Equity Now, Africatown’s Summer of Soul concert series brings Talib Kweli and Kevin Ross to Jimi Hendrix Park for a free celebration, with food, vendors, and family activities.</p> 
+
+<div class="eventtitle">Tacoma Juneteenth Celebration</div>
+<div class="details">JUNE 19, 11AM–5PM | STEWART HEIGHTS PARK, FREE</div>
+
+<p>South Sounders can celebrate Juneteenth at this free Tacoma festival with more than 100 vendors, musical performances, a kids area (with bouncy houses, of course), and school and career resources.  Congresswoman Marilyn Strickland will speak on “the road to economic freedom.” Organizers will also crown the first ever Miss Juneteenth.</p> 
+
+<div class="eventtitle">NUBIA: A Brave New World</div>
+<div class="details">JUNE 19, 8PM | MOORE THEATRE, $39.50</div>
+
+<p>Created by season one RuPaul’s Drag Race winner BeBe Zahara Benet, the Nubia: A Brave New World tour is a celebration of glamour, opulence, and Black excellence” born from a need for performance opportunities for Black drag and queer artists.” The show also features drag queens Shea Couleé, Yvie Oddly, Mo Heart, Ra’Jah O’Hara, and LaLa Ri.</p>
+
+</section>
+<section class="signup" id="contact_us"> Please share your email address for updates and more information:
+<form id="form" action="https://www.freecodecamp.com/email-submit"> 
+  <input id="email" type="email" name="email" placeholder="Your email address" />
+  <input id="submit" type="submit" />
+</form>
+</section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(black, red, green, yellow);
+  font-family: sans-serif;
+  font-size: 20;
+  margin: auto;
+  width: 75%
+
+}
+
+#header {
+  color: white;
+  width: 100%;
+  font-family: snell roundhand, cursive;
+  display: flex;
+  top: 0;
+}
+
+#header-img {
+  width: 33%;
+  padding: 55px;
+
+}
+
+#nav-bar {
+  background-color: black;
+  position: fixed;
+  top:0;
+  float: right;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+li {
+  float: left;
+  padding: 15px;
+    
+}
+
+.heading {
+  padding: 100px;
+  
+}
+
+.eventheader {
+  font-size: 25;
+  font-weight: 900
+}
+
+.eventtitle {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 570px) {
+  #video {
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #header-img {
+    z-index: 1;
+    max-height: 125px;
+  }
+}
+
+** end of undefined **
+

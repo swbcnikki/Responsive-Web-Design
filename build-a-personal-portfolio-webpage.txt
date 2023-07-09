@@ -1,0 +1,75 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">WELCOME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="welcome-section">
+        <h1><span class="full-text"> Welcome to ___'s Portfolio</span>
+        <span class="short-text"> ___'s Portfolio</span></h1>
+      </div>
+      <div id="projects"><a href=""></a>
+        <div class="project-tile"><a href=""></a></div>
+        <div class="project-tile"><a href=""></a></div>
+        <div class="project-tile"><a href=""></a></div>
+        <div class="project-tile"><a href=""></a></div>
+      </div>      
+      <a id="profile-link" target="_blank" href=""></a>
+      <div id="contact">
+        <div id="social-media"></div>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+#welcome-section {
+  padding: 60px;
+}
+.short-text {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .short-text {
+    display: inline-block;
+ }
+ .full-text {
+   display: none;
+ }
+}
+
+** end of undefined **
+

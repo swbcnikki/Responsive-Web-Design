@@ -1,0 +1,32 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  #welcome-section {
+    padding: 60px;
+  }
+  .short-text {
+    display: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .short-text {
+      display: inline-block;
+   }
+   .full-text {
+     display: none;
+   }
+  }
+  
